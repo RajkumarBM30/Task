@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 300vh;
+    overflow-x: hidden;
+    background:linear-gradient(to right, #292828 0%, black 100%);
+}
+#navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    text-align: justify;
+    background-color: rgba(235, 235, 235, 0.146);
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 15px 25px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 50px;
+    transition: all 0.3ss ease;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    
+}
+#navbar a:hover{
+    background-color: rgba(255, 255, 255, 0.045);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: all 0.3s ease;
+}
+#logo>image{
+    width: 5px;
+    height: 5px;
+    margin: 2px 50px;
+    position: absolute;
+    size: 25px;
+
+}
+
+#headname>h4{
+    color: #e0e0e0;
+    background: linear-gradient(90deg, #b8b8b8 0%, #f8f8f8 30%, #a0a0a0 60%, #e0e0e0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow:
+        0px 0px 10px #303030,
+        0px 0px 5px #000000,
+        0 0 1px #fff,
+        0 0 5px #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 200px;
+    left: 390px;
+  
+}
+#headname>h1{
+    color: #e0e0e0;
+    background: linear-gradient(90deg, #b8b8b8 0%, #f8f8f8 30%, #a0a0a0 60%, #e0e0e0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow:
+        0px 0px 10px #303030,
+        0px 0px 5px #000000,
+        0 0 1px #fff,
+        0 0 5px #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 90px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 200px;
+    left: 90px;
+  
+}
+#BUTTON01{
+    position: relative;
+    top: 250px;
+    left: 530px;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgb(39, 37, 37);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#BUTTON01:hover{
+    background-color: rgba(138, 138, 138, 0.283);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0);
+    transition: all 0.3s ease;
+
+
+}
+
+
+
+#img01{
+    width: 100vb;
+    height: 100vb;
+    background-image: url(https://www.hdcarwallpapers.com/download/2017_rolls_royce_4k-3840x2160.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+       
+}
+#img02{
+    background-image: url(https://images4.alphacoders.com/101/1019627.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 111vb;
+    height: 100vb;
+    position: absolute;
+    left: 47%;
+    top: 100%;
+
+}
+
+#content>h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    padding: 10px 15px;
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 1130px;
+    left: 462px;
+    color: aliceblue;
+}
+
+#content>h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 1120px;
+    left: 505px;
+    color: aliceblue;
+}
+
+
+#main2>img{
+    height: 250px;
+    width: 380px;
+    cursor: pointer;
+}
+
+#main2 #img01{
+    position: absolute;
+    top: 1510px;
+    left: 30px;
+}
+#main2 #img02{
+    position: absolute;
+    top: 1510px;
+    left: 900px;
+}
+#main2 #img03{
+    position: absolute;
+    top: 1510px;
+    left: 460px;
+}
+
+#main2 > img:hover {
+    transform: scale(1.08) rotate(-0deg);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    z-index: 10;
+}
+
+#bgvideo{
+    position: absolute;
+    top: 1890px;
+    height: 900px;
+    width: 100%;
+}
+
+#bgvideo::-webkit-media-controls {
+    display: none !important;
+}
+#bgvideo::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+#img01-details>h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 1420px;
+    left: 1px;
+    color: aliceblue;
+}
+#img01-details>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 1400px;
+    left: 1px;
+    color: rgb(162, 162, 162);
+}
+
+#img02-details>h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 1295px;
+    left: 430px;
+    color: aliceblue;
+}
+#img02-details>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 1280px;
+    left: 430px;
+    color: rgb(162, 162, 162);
+}
+
+#img03-details>h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 1185px;
+    left: 870px;
+    color: aliceblue;
+}
+#img03-details>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: 100;
+    position: relative;
+    top: 1170px;
+    left: 870px;
+    color: rgb(162, 162, 162);
+}
