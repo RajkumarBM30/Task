@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+@mixin felxcenter(){
+    display: flex;
+    
+}
+div{
+    height: 100%;
+    width: 100%;
+       
+    @include felxcenter();
+
+        section{
+            height: 100%;
+            flex-grow: 1;
+            background-size: cover;
+            background-position: center;
+            transition: all 0.5s;    
+        }
+        section:hover{
+            flex-grow: 2;
+        
+        
+        }
+            section:nth-child(1){
+            background-image: url(./hulk.jpg);
+        }
+            section:nth-child(2){
+            background-image: url(./iron.jpg);
+        }
+            section:nth-child(3){
+            background-image: url(./thyanos.jpg);
+        }
+            section:nth-child(4){
+            background-image: url(./thor.jpg);
+        }
+            section:nth-child(5){
+            background-image: url(./spiderman.jpg);
+        }
+        
+        
+}
+
+  img{
+            
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    height: 20%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+
+}
